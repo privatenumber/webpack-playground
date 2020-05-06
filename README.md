@@ -1,2 +1,2 @@
 # webpack-librarytarget-demo
-Demonstration of how the difference in libraryTargets
+Demonstration on the difference in libraryTargets
