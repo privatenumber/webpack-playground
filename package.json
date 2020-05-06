@@ -1,0 +1,23 @@
+{
+  "name": "webpack-librarytarget-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of how the difference in libraryTargets",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privatenumber/webpack-librarytarget-demo.git"
+  },
+  "author": "Hiroki Osame <hiroki.osame@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/privatenumber/webpack-librarytarget-demo/issues"
+  },
+  "homepage": "https://github.com/privatenumber/webpack-librarytarget-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
