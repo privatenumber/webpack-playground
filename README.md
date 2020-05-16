@@ -1,2 +1,3 @@
-# webpack-librarytarget-demo
-Demonstration on the difference in libraryTargets
+# webpack-playground
+
+Webpack configuration demos
