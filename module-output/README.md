@@ -1,3 +1,3 @@
-# externals
+# module
 
-This demonstrates how externalized dependencies are loaded by the distribution file
+This demonstrates what the Webpack 5 experimental `output.module` feature looks like in output
