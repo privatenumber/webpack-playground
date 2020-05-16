@@ -6,7 +6,8 @@
   "scripts": {
     "build": "run-s build:*",
     "build:libraryTargets": "webpack --config libraryTargets/webpack.config",
-    "build:externals": "webpack --config externals/webpack.config"
+    "build:externals": "webpack --config externals/webpack.config",
+    "build:module-output": "webpack --config module-output/webpack.config"
   },
   "repository": {
     "type": "git",
