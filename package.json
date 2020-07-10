@@ -8,6 +8,7 @@
     "build:libraryTargets": "webpack --config libraryTargets/webpack.config",
     "build:externals": "webpack --config externals/webpack.config",
     "build:module-output": "webpack --config module-output/webpack.config",
+    "build:webpack-chunk-name": "webpack --config webpack-chunk-name/webpack.config",
     "build:dll": "rm -rf dll/dist && webpack --config dll/webpack.vendor.config && webpack --config dll/webpack.app.config"
   },
   "repository": {
