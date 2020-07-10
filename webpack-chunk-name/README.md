@@ -1,3 +1,3 @@
-# module
+# webpackChunkName
 
-This demonstrates what the Webpack 5 experimental `output.module` feature looks like in output
+This demonstrates what the [magic comment](https://webpack.js.org/api/module-methods/#magic-comments) `/* webpackChunkName: "my-chunk-name" */` groups chunks with the same name.
