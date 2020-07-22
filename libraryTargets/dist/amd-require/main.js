@@ -1,12 +1,22 @@
 require([], () => /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 138:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__,
+/* harmony export */   "named": () => /* binding */ named
+/* harmony export */ });
 console.log('entry file');
 
 __webpack_require__.e(/* import() */ 435).then(__webpack_require__.t.bind(__webpack_require__, 435, 7)).then(() => console.log('chunk loaded'));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ('default');
+
+const named = 'named';
 
 
 /***/ })
