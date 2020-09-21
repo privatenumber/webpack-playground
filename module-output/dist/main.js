@@ -1,5 +1,22 @@
 /******/ "use strict";
-/******/ var __webpack_modules__ = ({});
+/******/ var __webpack_modules__ = ({
+
+/***/ 138:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+const value = 'entry file';
+
+console.log(value);
+
+__webpack_require__.e(/* import() */ 435).then(__webpack_require__.bind(__webpack_require__, 435)).then(() => console.log('chunk loaded'));
+
+
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (value)));
+
+
+/***/ })
+
+/******/ });
 /************************************************************************/
 /******/ // The module cache
 /******/ var __webpack_module_cache__ = {};
@@ -254,12 +271,7 @@
 /******/ })();
 /******/ 
 /************************************************************************/
-const value = 'entry file';
-
-console.log(value);
-
-__webpack_require__.e(/* import() */ 435).then(__webpack_require__.bind(__webpack_require__, 435)).then(() => console.log('chunk loaded'));
-
-
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (value)));
-
+/******/ // module exports must be returned from runtime so entry inlining is disabled
+/******/ // startup
+/******/ // Load entry module and return exports
+/******/ return __webpack_require__(138);

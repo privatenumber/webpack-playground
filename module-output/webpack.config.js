@@ -10,10 +10,6 @@ module.exports = {
 		minimize: false,
 	},
 
-	// externals: [
-	// 	/lodash/,
-	// ],
-
 	entry: './src/index.js',
 
 	experiments: {
@@ -21,10 +17,8 @@ module.exports = {
 	},
 
 	output: {
-		module: true,
 		path: path.resolve(__dirname, `./dist/`),
-		// libraryTarget: 'module',,
-		// library: libraryTarget.startsWith('amd') ? undefined : 'test',
+		libraryTarget: 'module',
 	},
 
 	plugins: [
