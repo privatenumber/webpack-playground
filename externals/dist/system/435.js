@@ -1,4 +1,4 @@
-(window["webpackJsonptest"] = window["webpackJsonptest"] || []).push([[435],{
+(self["webpackChunktest"] = self["webpackChunktest"] || []).push([[435],{
 
 /***/ 435:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {

@@ -1,4 +1,4 @@
-(window["webpackJsonptest"] = window["webpackJsonptest"] || []).push([[435],{
+(self["webpackChunktest"] = self["webpackChunktest"] || []).push([[435],{
 
 /***/ 435:
 /***/ (() => {
