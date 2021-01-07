@@ -1,8 +1,11 @@
 {
   "name": "webpack-playground",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "priate": true,
   "description": "Webpack config demos",
-  "main": "index.js",
+  "repository": "privatenumber/webpack-playground",
+  "author": "Hiroki Osame <hiroki.osame@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "build": "run-s build:*",
     "build:libraryTargets": "webpack --config libraryTargets/webpack.config",
@@ -11,16 +14,6 @@
     "build:webpack-chunk-name": "webpack --config webpack-chunk-name/webpack.config",
     "build:dll": "rm -rf dll/dist && webpack --config dll/webpack.vendor.config && webpack --config dll/webpack.app.config"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/privatenumber/webpack-librarytarget-demo.git"
-  },
-  "author": "Hiroki Osame <hiroki.osame@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/privatenumber/webpack-librarytarget-demo/issues"
-  },
-  "homepage": "https://github.com/privatenumber/webpack-librarytarget-demo#readme",
   "devDependencies": {
     "webpack": "^5.0.0-rc.0",
     "webpack-cli": "^3.3.11"
