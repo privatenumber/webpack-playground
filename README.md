@@ -41,5 +41,5 @@ $ pnpm run -r build
 
 #### Run build in a specific package
 ```sh
-$ pnpm run -C packages/<PACKAGE_NAME> build
+$ pnpm run -C demos/<PACKAGE_NAME> build
 ```
