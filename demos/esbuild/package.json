@@ -1,6 +1,6 @@
 {
 	"name": "@webpack-playground/esbuild",
-	"description": "Webpack config demos",
+	"description": "Blazing fast JS transpilation & minification with esbuild",
 	"scripts": {
 		"build": "rm -rf dist && webpack --config webpack.config"
 	},

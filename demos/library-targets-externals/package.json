@@ -1,6 +1,6 @@
 {
 	"name": "@webpack-playground/externals",
-	"description": "Webpack config demos",
+	"description": "See how different library-targets externalize modules",
 	"scripts": {
 		"build": "rm -rf dist && webpack --config webpack.config"
 	}

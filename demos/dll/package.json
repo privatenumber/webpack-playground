@@ -1,6 +1,6 @@
 {
 	"name": "@webpack-playground/dll",
-	"description": "Webpack config demos",
+	"description": "Splitting bundles with DLL to improve build-time",
 	"scripts": {
 		"build": "rm -rf dist && webpack --config webpack.vendor.config && webpack --config webpack.app.config"
 	}

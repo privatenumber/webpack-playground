@@ -1,6 +1,6 @@
 {
 	"name": "@webpack-playground/module-output",
-	"description": "Webpack config demos",
+	"description": "Webpack's experimental ESM module output",
 	"scripts": {
 		"build": "rm -rf dist && webpack --config webpack.config"
 	}

@@ -1,6 +1,6 @@
 {
 	"name": "@webpack-playground/library-targets",
-	"description": "Webpack config demos",
+	"description": "See the different output formats Webpack supports",
 	"scripts": {
 		"build": "rm -rf dist && webpack --config webpack.config"
 	}
