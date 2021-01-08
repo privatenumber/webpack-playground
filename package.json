@@ -6,7 +6,8 @@
 	"author": "Hiroki Osame <hiroki.osame@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"update-readme": "node scripts/update-readme.js"
 	},
 	"dependencies": {
 		"clean-webpack-plugin": "^3.0.0",
@@ -14,6 +15,7 @@
 	},
 	"devDependencies": {
 		"@pvtnbr/eslint-config-base": "^0.1.7",
+		"comment-mark": "^1.0.0",
 		"eslint": "^7.17.0",
 		"husky": "^4.3.7",
 		"lint-staged": "^10.5.3",
@@ -22,6 +24,8 @@
 	},
 	"eslintConfig": {
 		"extends": "@pvtnbr/eslint-config-base",
-		"ignorePatterns": ["dist"]
+		"ignorePatterns": [
+			"dist"
+		]
 	}
 }
