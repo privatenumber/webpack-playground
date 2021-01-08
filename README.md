@@ -24,16 +24,16 @@ See how Webpack magic comments influence code-splitting
 Webpack's experimental ESM module output
 
 ### [tree-shaking-lodash-es](/demos/tree-shaking-lodash-es)
-Blazing fast JS transpilation & minification with esbuild
+Tree-shaking performance with lodash-es
 
 ### [tree-shaking-lodash-es-wp-4](/demos/tree-shaking-lodash-es-wp-4)
-Blazing fast JS transpilation & minification with esbuild
+Tree-shaking performance with lodash-es using Webpack 4
 
 ### [tree-shaking-lodash-path](/demos/tree-shaking-lodash-path)
-Blazing fast JS transpilation & minification with esbuild
+Bundling performance importing specific lodash utils
 
 ### [tree-shaking-lodash-plugin](/demos/tree-shaking-lodash-plugin)
-Blazing fast JS transpilation & minification with esbuild
+Tree-shaking performance using babel-plugin-lodash
 <!-- demos:end -->
 
 ## 🛠 Contributing
