@@ -2,7 +2,7 @@
 	"name": "@webpack-playground/esbuild",
 	"description": "Blazing fast JS transpilation & minification with esbuild",
 	"scripts": {
-		"build": "rm -rf dist && webpack --config webpack.config"
+		"build": "rm -rf dist && webpack --config webpack.config.js"
 	},
 	"devDependencies": {
 		"esbuild-loader": "^2.7.0"

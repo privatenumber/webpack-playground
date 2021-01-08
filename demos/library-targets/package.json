@@ -2,6 +2,6 @@
 	"name": "@webpack-playground/library-targets",
 	"description": "See the different output formats Webpack supports",
 	"scripts": {
-		"build": "rm -rf dist && webpack --config webpack.config"
+		"build": "rm -rf dist && webpack --config webpack.config.js"
 	}
 }
