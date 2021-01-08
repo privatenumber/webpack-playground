@@ -26,6 +26,9 @@ Webpack's experimental ESM module output
 ### [tree-shaking-lodash-babel-plugin](/demos/tree-shaking-lodash-babel-plugin)
 Tree-shaking performance using babel-plugin-lodash
 
+### [tree-shaking-lodash-babel-webpack-plugin](/demos/tree-shaking-lodash-babel-webpack-plugin)
+Tree-shaking performance using babel-plugin-lodash & lodash-webpack-plugin
+
 ### [tree-shaking-lodash-es](/demos/tree-shaking-lodash-es)
 Tree-shaking performance with lodash-es
 

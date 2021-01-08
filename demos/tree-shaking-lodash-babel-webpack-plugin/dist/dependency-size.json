@@ -1,0 +1,170 @@
+{
+  "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash": {
+    "size": "15.3 kB",
+    "files": [
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_unicodeWords.js",
+        "size": "3.0 kB",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_unicodeWords.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/words.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_unicodeToArray.js",
+        "size": "1.6 kB",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_stringToArray.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_unicodeToArray.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/words.js",
+        "size": "1.0 kB",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCompounder.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/words.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_hasUnicode.js",
+        "size": "947 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCaseFirst.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_hasUnicode.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_stringToArray.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_arrayReduce.js",
+        "size": "788 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_arrayReduce.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCompounder.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCaseFirst.js",
+        "size": "772 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCaseFirst.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/upperFirst.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_baseSlice.js",
+        "size": "753 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_baseSlice.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_castSlice.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/camelCase.js",
+        "size": "701 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/camelCase.js",
+          "./src/index.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCompounder.js",
+        "size": "636 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCompounder.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/camelCase.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/filter.js",
+        "size": "633 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/filter.js",
+          "./src/index.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/deburr.js",
+        "size": "580 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCompounder.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/deburr.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/capitalize.js",
+        "size": "529 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/camelCase.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/capitalize.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_castSlice.js",
+        "size": "515 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_castSlice.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCaseFirst.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_hasUnicodeWord.js",
+        "size": "490 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_hasUnicodeWord.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/words.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/upperFirst.js",
+        "size": "469 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/capitalize.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/upperFirst.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_stringToArray.js",
+        "size": "442 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCaseFirst.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_stringToArray.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_asciiWords.js",
+        "size": "403 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_asciiWords.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/words.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/toString.js",
+        "size": "369 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_createCaseFirst.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/capitalize.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/toString.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/words.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_baseToString.js",
+        "size": "369 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_baseToString.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/deburr.js"
+        ]
+      },
+      {
+        "filepath": "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_asciiToArray.js",
+        "size": "256 B",
+        "reasons": [
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_asciiToArray.js",
+          "../../node_modules/.pnpm/lodash@4.17.20/node_modules/lodash/_stringToArray.js"
+        ]
+      }
+    ]
+  }
+}

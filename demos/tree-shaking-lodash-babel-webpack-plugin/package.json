@@ -1,0 +1,13 @@
+{
+	"name": "@webpack-playground/tree-shaking-lodash-babel-webpack-plugin",
+	"description": "Tree-shaking performance using babel-plugin-lodash & lodash-webpack-plugin",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	},
+	"dependencies": {
+		"@babel/core": "^7.12.10",
+		"babel-loader": "^8.2.2",
+		"babel-plugin-lodash": "^3.3.4",
+		"lodash-webpack-plugin": "^0.11.6"
+	}
+}
