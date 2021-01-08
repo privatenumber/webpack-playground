@@ -1,5 +1,6 @@
 const path = require('path');
 const { ESBuildPlugin, ESBuildMinifyPlugin } = require('esbuild-loader')
+const DependencySize = require('webpack-dependency-size');
 
 module.exports = {
 	context: __dirname,
@@ -33,5 +34,6 @@ module.exports = {
 
 	plugins: [
 		new ESBuildPlugin(),
+		new DependencySize(),
 	],
 };
