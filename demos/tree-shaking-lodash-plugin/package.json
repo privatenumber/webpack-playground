@@ -1,0 +1,12 @@
+{
+	"name": "@webpack-playground/tree-shaking-lodash-plugin",
+	"description": "Blazing fast JS transpilation & minification with esbuild",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	},
+	"dependencies": {
+		"@babel/core": "^7.12.10",
+		"babel-loader": "^8.2.2",
+		"babel-plugin-lodash": "^3.3.4"
+	}
+}

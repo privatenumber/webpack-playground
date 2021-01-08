@@ -1,0 +1,7 @@
+{
+	"name": "@webpack-playground/tree-shaking-lodash-path",
+	"description": "Blazing fast JS transpilation & minification with esbuild",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	}
+}

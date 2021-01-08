@@ -19,6 +19,7 @@
 	},
 	"devDependencies": {
 		"@pvtnbr/eslint-config-base": "^0.1.7",
+		"byte-size": "^7.0.0",
 		"comment-mark": "^1.0.0",
 		"eslint": "^7.17.0",
 		"husky": "^4.3.7",

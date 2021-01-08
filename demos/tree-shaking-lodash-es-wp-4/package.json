@@ -1,0 +1,14 @@
+{
+	"name": "@webpack-playground/tree-shaking-lodash-es",
+	"description": "Blazing fast JS transpilation & minification with esbuild",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	},
+	"dependencies": {
+		"lodash-es": "^4.17.20",
+		"webpack-cli": "^4.3.1"
+	},
+	"devDependencies": {
+		"webpack": "^4.36.1"
+	}
+}
