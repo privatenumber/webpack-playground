@@ -20,6 +20,3 @@ node_modules/
 
 # Jest coverage data
 coverage
-
-# Distribution files
-dist
