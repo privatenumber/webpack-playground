@@ -23,6 +23,9 @@ See how Webpack magic comments influence code-splitting
 ### [module-output](/demos/module-output)
 Webpack's experimental ESM module output
 
+### [tree-shaking-lodash-babel-plugin](/demos/tree-shaking-lodash-babel-plugin)
+Tree-shaking performance using babel-plugin-lodash
+
 ### [tree-shaking-lodash-es](/demos/tree-shaking-lodash-es)
 Tree-shaking performance with lodash-es
 
@@ -31,9 +34,6 @@ Tree-shaking performance with lodash-es using Webpack 4
 
 ### [tree-shaking-lodash-path](/demos/tree-shaking-lodash-path)
 Bundling performance importing specific lodash utils
-
-### [tree-shaking-lodash-plugin](/demos/tree-shaking-lodash-plugin)
-Tree-shaking performance using babel-plugin-lodash
 <!-- demos:end -->
 
 ## 🛠 Contributing
