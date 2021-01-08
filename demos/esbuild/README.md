@@ -1,3 +1,5 @@
-# module
+# esbuild
 
-This demonstrates what the Webpack 5 experimental `output.module` feature looks like in output
+This demo uses [esbuild-loader](https://github.com/privatenumber/esbuild-loader) to transpile & minify the bundle.
+
+Minification performance stats [here](https://github.com/privatenumber/minification-benchmarks).
