@@ -15,7 +15,7 @@ class RecordAssetSizes {
 				'asset-sizes': [
 					'| Asset | Size |',
 					'| - | - |',
-					...assets.map(a => `| ${a.name} | ${byteSize(a.size)} |`),
+					...assets.map(a => `| ${a.name} | \`${byteSize(a.size)}\` |`),
 				].join('\n'),
 			});
 			

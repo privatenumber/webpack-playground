@@ -8,7 +8,7 @@ The source simply imports the `camelCase` module from `lodash` via named-import.
 <!-- asset-sizes:start -->
 | Asset | Size |
 | - | - |
-| main.js | 121.2 kB |
+| main.js | `121.2 kB` |
 <!-- asset-sizes:end -->
 
 
