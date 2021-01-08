@@ -5,12 +5,23 @@ This repo contains a variety of examples that demonstrate different Webpack conf
 
 ## ⛳️ Demos
 <!-- demos:start -->
-- [dll](/demos/dll): Splitting bundles with DLL to improve build-time
-- [esbuild](/demos/esbuild): Blazing fast JS transpilation & minification with esbuild
-- [library-targets](/demos/library-targets): See the different output formats Webpack supports
-- [library-targets-externals](/demos/library-targets-externals): See how different library-targets externalize modules
-- [magic-comments](/demos/magic-comments): See how Webpack magic comments influence code-splitting
-- [module-output](/demos/module-output): Webpack's experimental ESM module output
+### [dll](/demos/dll)
+Splitting bundles with DLL to improve build-time
+
+### [esbuild](/demos/esbuild)
+Blazing fast JS transpilation & minification with esbuild
+
+### [library-targets](/demos/library-targets)
+See the different output formats Webpack supports
+
+### [library-targets-externals](/demos/library-targets-externals)
+See how different library-targets externalize modules
+
+### [magic-comments](/demos/magic-comments)
+See how Webpack magic comments influence code-splitting
+
+### [module-output](/demos/module-output)
+Webpack's experimental ESM module output
 <!-- demos:end -->
 
 ## 🛠 Contributing
