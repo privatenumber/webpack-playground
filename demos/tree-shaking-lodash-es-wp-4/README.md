@@ -1,4 +1,4 @@
-# Tree-shaking Lodash-es using Webpack 4
+# Tree-shaking performance with lodash-es using Webpack 4
 
 Tree-shaking performance using [lodash-es](https://www.npmjs.com/package/lodash-es) using Webpack 4.
 

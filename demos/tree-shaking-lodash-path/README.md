@@ -1,4 +1,4 @@
-# Tree-shaking Lodash path
+# Bundling performance importing specific lodash utils
 
 Tree-shaking performance performance (not really tree-shaking) by direclty importing the specific lodash util by path.
 

@@ -1,4 +1,4 @@
-# Tree-shaking Lodash-plugin
+# Tree-shaking performance using babel-plugin-lodash
 
 Tree-shaking performance using Lodash's [babel plugin](https://github.com/lodash/babel-plugin-lodash).
 

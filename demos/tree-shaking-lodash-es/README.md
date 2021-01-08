@@ -1,4 +1,4 @@
-# Tree-shaking Lodash-es
+# Tree-shaking performance with lodash-es
 
 Tree-shaking performance using [lodash-es](https://www.npmjs.com/package/lodash-es).
 
