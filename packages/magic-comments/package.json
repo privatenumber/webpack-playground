@@ -1,5 +1,5 @@
 {
-	"name": "@webpack-playground/library-targets",
+	"name": "@webpack-playground/magic-comments",
 	"description": "Webpack config demos",
 	"scripts": {
 		"build": "rm -rf dist && webpack --config webpack.config"

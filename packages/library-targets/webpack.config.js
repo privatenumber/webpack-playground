@@ -1,5 +1,4 @@
 const path = require('path');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const libraryTargets = [
 	'var',
@@ -30,9 +29,6 @@ const base = {
 		minimize: false,
 	},
 	entry: './src/index.js',
-	plugins: [
-		new CleanWebpackPlugin({ verbose: true }),
-	],
 };
 
 module.exports = libraryTargets.map(libraryTarget => ({

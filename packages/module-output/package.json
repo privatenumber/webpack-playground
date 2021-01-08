@@ -1,4 +1,7 @@
 {
 	"name": "@webpack-playground/module-output",
-	"description": "Webpack config demos"
+	"description": "Webpack config demos",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config"
+	}
 }

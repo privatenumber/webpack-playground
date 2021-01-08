@@ -111,7 +111,7 @@ __webpack_require__.e(/* import() */ 435).then(__webpack_require__.bind(__webpac
 /******/ /* webpack/runtime/load script */
 /******/ (() => {
 /******/ 	var inProgress = {};
-/******/ 	// data-webpack is not used as build has no uniqueName
+/******/ 	var dataWebpackPrefix = "@webpack-playground/module-output:";
 /******/ 	// loadScript function to load a script via script tag
 /******/ 	__webpack_require__.l = (url, done, key) => {
 /******/ 		if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -120,7 +120,7 @@ __webpack_require__.e(/* import() */ 435).then(__webpack_require__.bind(__webpac
 /******/ 			var scripts = document.getElementsByTagName("script");
 /******/ 			for(var i = 0; i < scripts.length; i++) {
 /******/ 				var s = scripts[i];
-/******/ 				if(s.getAttribute("src") == url) { script = s; break; }
+/******/ 				if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
 /******/ 			}
 /******/ 		}
 /******/ 		if(!script) {
@@ -132,7 +132,7 @@ __webpack_require__.e(/* import() */ 435).then(__webpack_require__.bind(__webpac
 /******/ 			if (__webpack_require__.nc) {
 /******/ 				script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 			}
-/******/ 	
+/******/ 			script.setAttribute("data-webpack", dataWebpackPrefix + key);
 /******/ 			script.src = url;
 /******/ 		}
 /******/ 		inProgress[url] = [done];
@@ -240,7 +240,7 @@ __webpack_require__.e(/* import() */ 435).then(__webpack_require__.bind(__webpac
 /******/ 	// no deferred startup
 /******/ 	
 /******/ 	// install a JSONP callback for chunk loading
-/******/ 	var webpackJsonpCallback = (data) => {
+/******/ 	var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
 /******/ 		var [chunkIds, moreModules, runtime] = data;
 /******/ 		// add "moreModules" to the modules object,
 /******/ 		// then flag all "chunkIds" as loaded and fire callback
@@ -258,16 +258,18 @@ __webpack_require__.e(/* import() */ 435).then(__webpack_require__.bind(__webpac
 /******/ 			}
 /******/ 		}
 /******/ 		if(runtime) runtime(__webpack_require__);
-/******/ 		parentChunkLoadingFunction(data);
+/******/ 		if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
 /******/ 		while(resolves.length) {
 /******/ 			resolves.shift()();
 /******/ 		}
 /******/ 	
 /******/ 	}
 /******/ 	
-/******/ 	var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
-/******/ 	var parentChunkLoadingFunction = chunkLoadingGlobal.push.bind(chunkLoadingGlobal);
-/******/ 	chunkLoadingGlobal.push = webpackJsonpCallback;
+/******/ 	var chunkLoadingGlobal = self["webpackChunk_webpack_playground_module_output"] = self["webpackChunk_webpack_playground_module_output"] || [];
+/******/ 	chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 	chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	
+/******/ 	// no deferred startup
 /******/ })();
 /******/ 
 /************************************************************************/

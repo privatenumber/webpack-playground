@@ -1,5 +1,4 @@
 const path = require('path');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
 	context: __dirname,
@@ -9,10 +8,6 @@ module.exports = {
 	optimization: {
 		minimize: false,
 	},
-
-	// externals: [
-	// 	/lodash/,
-	// ],
 
 	entry: './src/index.js',
 
@@ -26,8 +21,4 @@ module.exports = {
 		// libraryTarget: 'module',,
 		// library: libraryTarget.startsWith('amd') ? undefined : 'test',
 	},
-
-	plugins: [
-		new CleanWebpackPlugin({ verbose: true }),
-	],
 };

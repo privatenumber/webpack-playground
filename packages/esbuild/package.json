@@ -1,4 +1,10 @@
 {
 	"name": "@webpack-playground/esbuild",
-	"description": "Webpack config demos"
+	"description": "Webpack config demos",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config"
+	},
+	"devDependencies": {
+		"esbuild-loader": "^2.7.0"
+	}
 }

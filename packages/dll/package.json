@@ -1,4 +1,7 @@
 {
 	"name": "@webpack-playground/dll",
-	"description": "Webpack config demos"
+	"description": "Webpack config demos",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.vendor.config && webpack --config webpack.app.config"
+	}
 }
