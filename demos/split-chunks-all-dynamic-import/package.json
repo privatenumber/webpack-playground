@@ -1,0 +1,7 @@
+{
+	"name": "@webpack-playground/split-chunks-all-dynamic-import",
+	"description": "Webpack's Split Chunks on all chunks w/ dynamic import",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	}
+}

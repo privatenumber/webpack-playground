@@ -1,0 +1,7 @@
+{
+	"name": "@webpack-playground/split-chunks-all",
+	"description": "Webpack's Split Chunks on all chunks",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	}
+}

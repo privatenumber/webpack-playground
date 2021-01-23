@@ -29,6 +29,14 @@ This repo contains a variety of examples that demonstrate different Webpack conf
 
 	Webpack's experimental ESM module output
 
+- [split-chunks-all](/demos/split-chunks-all)
+
+	Webpack's Split Chunks on all chunks
+
+- [split-chunks-all-dynamic-import](/demos/split-chunks-all-dynamic-import)
+
+	Webpack's Split Chunks on all chunks w/ dynamic import
+
 - [tree-shaking-lodash-babel-plugin](/demos/tree-shaking-lodash-babel-plugin)
 
 	Tree-shaking performance using babel-plugin-lodash
