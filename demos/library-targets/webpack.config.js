@@ -4,6 +4,7 @@ const libraryTargets = [
 	'var',
 	// 'module',
 	'assign',
+	'assign-properties',
 	'this',
 	'window',
 	'self',
