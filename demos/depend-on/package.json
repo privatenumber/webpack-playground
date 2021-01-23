@@ -1,0 +1,7 @@
+{
+	"name": "@webpack-playground/depend-on",
+	"description": "Webpack's depend-on feature",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	}
+}

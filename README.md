@@ -5,6 +5,10 @@ This repo contains a variety of examples that demonstrate different Webpack conf
 
 ## ⛳️ Demos
 <!-- demos:start -->
+- [depend-on](/demos/depend-on)
+
+	Webpack's depend-on feature
+
 - [dll](/demos/dll)
 
 	Splitting bundles with DLL to improve build-time
