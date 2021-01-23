@@ -37,6 +37,10 @@ This repo contains a variety of examples that demonstrate different Webpack conf
 
 	Webpack's Split Chunks on all chunks w/ dynamic import
 
+- [split-chunks-individual-dependency-vendors](/demos/split-chunks-individual-dependency-vendors)
+
+	Webpack's Split Chunks to individually chunk each node module
+
 - [tree-shaking-lodash-babel-plugin](/demos/tree-shaking-lodash-babel-plugin)
 
 	Tree-shaking performance using babel-plugin-lodash

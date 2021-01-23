@@ -1,0 +1,7 @@
+{
+	"name": "@webpack-playground/split-chunks-individual-dependency-vendors",
+	"description": "Webpack's Split Chunks to individually chunk each node module",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	}
+}
