@@ -116,7 +116,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__737__;
 /******/ 		var inProgress = {};
 /******/ 		var dataWebpackPrefix = "@webpack-playground/externals:";
 /******/ 		// loadScript function to load a script via script tag
-/******/ 		__webpack_require__.l = (url, done, key) => {
+/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
 /******/ 			var script, needAttach;
 /******/ 			if(key !== undefined) {
@@ -235,7 +235,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__737__;
 /******/ 									}
 /******/ 								}
 /******/ 							};
-/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId);
+/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
 /******/ 						} else installedChunks[chunkId] = 0;
 /******/ 					}
 /******/ 				}
