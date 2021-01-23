@@ -20,7 +20,7 @@ function getDemos() {
 let mdStr = fs.readFileSync('./README.md');
 
 mdStr = commentMark(mdStr, {
-	demos: getDemos().map(demo => `### [${demo.name}](/demos/${demo.name})\n${demo.description}`).join('\n\n'),
+	demos: getDemos().map(demo => `- [${demo.name}](/demos/${demo.name})\n\n\t${demo.description}`).join('\n\n'),
 });
 
 fs.writeFileSync('./README.md', mdStr);

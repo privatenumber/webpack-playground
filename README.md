@@ -5,38 +5,49 @@ This repo contains a variety of examples that demonstrate different Webpack conf
 
 ## ⛳️ Demos
 <!-- demos:start -->
-### [dll](/demos/dll)
-Splitting bundles with DLL to improve build-time
+- [dll](/demos/dll)
 
-### [esbuild](/demos/esbuild)
-Blazing fast JS transpilation & minification with esbuild
+	Splitting bundles with DLL to improve build-time
 
-### [library-targets](/demos/library-targets)
-See the different output formats Webpack supports
+- [esbuild](/demos/esbuild)
 
-### [library-targets-externals](/demos/library-targets-externals)
-See how different library-targets externalize modules
+	Blazing fast JS transpilation & minification with esbuild
 
-### [magic-comments](/demos/magic-comments)
-See how Webpack magic comments influence code-splitting
+- [library-targets](/demos/library-targets)
 
-### [module-output](/demos/module-output)
-Webpack's experimental ESM module output
+	See the different output formats Webpack supports
 
-### [tree-shaking-lodash-babel-plugin](/demos/tree-shaking-lodash-babel-plugin)
-Tree-shaking performance using babel-plugin-lodash
+- [library-targets-externals](/demos/library-targets-externals)
 
-### [tree-shaking-lodash-babel-webpack-plugin](/demos/tree-shaking-lodash-babel-webpack-plugin)
-Tree-shaking performance using babel-plugin-lodash & lodash-webpack-plugin
+	See how different library-targets externalize modules
 
-### [tree-shaking-lodash-es](/demos/tree-shaking-lodash-es)
-Tree-shaking performance with lodash-es
+- [magic-comments](/demos/magic-comments)
 
-### [tree-shaking-lodash-es-wp-4](/demos/tree-shaking-lodash-es-wp-4)
-Tree-shaking performance with lodash-es using Webpack 4
+	See how Webpack magic comments influence code-splitting
 
-### [tree-shaking-lodash-path](/demos/tree-shaking-lodash-path)
-Bundling performance importing specific lodash utils
+- [module-output](/demos/module-output)
+
+	Webpack's experimental ESM module output
+
+- [tree-shaking-lodash-babel-plugin](/demos/tree-shaking-lodash-babel-plugin)
+
+	Tree-shaking performance using babel-plugin-lodash
+
+- [tree-shaking-lodash-babel-webpack-plugin](/demos/tree-shaking-lodash-babel-webpack-plugin)
+
+	Tree-shaking performance using babel-plugin-lodash & lodash-webpack-plugin
+
+- [tree-shaking-lodash-es](/demos/tree-shaking-lodash-es)
+
+	Tree-shaking performance with lodash-es
+
+- [tree-shaking-lodash-es-wp-4](/demos/tree-shaking-lodash-es-wp-4)
+
+	Tree-shaking performance with lodash-es using Webpack 4
+
+- [tree-shaking-lodash-path](/demos/tree-shaking-lodash-path)
+
+	Bundling performance importing specific lodash utils
 <!-- demos:end -->
 
 ## 🛠 Contributing
