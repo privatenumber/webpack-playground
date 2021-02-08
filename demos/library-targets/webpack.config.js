@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const libraryTargets = [
 	'var',
@@ -30,6 +31,9 @@ const base = {
 		minimize: false,
 	},
 	entry: './src/index.js',
+	plugins: [
+		new HtmlWebpackPlugin(),
+	],
 };
 
 module.exports = libraryTargets.map(libraryTarget => ({

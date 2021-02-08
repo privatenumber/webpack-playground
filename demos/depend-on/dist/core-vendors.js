@@ -8,7 +8,7 @@
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
 })(self, function(__WEBPACK_EXTERNAL_MODULE__804__) {
-return (self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] = self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] || []).push([[215],{
+return (self["webpackChunk_webpack_playground_depend_on"] = self["webpackChunk_webpack_playground_depend_on"] || []).push([[215],{
 
 /***/ 922:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {

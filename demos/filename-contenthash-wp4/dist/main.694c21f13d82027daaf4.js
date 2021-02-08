@@ -36,14 +36,14 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		1: 0
+/******/ 		0: 0
 /******/ 	};
 /******/
 /******/
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + chunkId + "." + {"0":"c37ec82c0a941b1b2061"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "" + chunkId + "." + {"1":"be1382419c91500ff71e"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -196,17 +196,16 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */,
-/* 1 */
+/* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-console.log('entry a');
+console.log('entry file');
 
-__webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 0)).then(({ camelCase, filter }) => {
+__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 1)).then(({ camelCase, filter }) => {
 	console.log(camelCase('chunkFile'));
 	console.log(filter());	
 });

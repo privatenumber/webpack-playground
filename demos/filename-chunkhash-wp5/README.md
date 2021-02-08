@@ -6,7 +6,8 @@ Demo of the chunkhash behavior using Webpack 5.
 <!-- asset-sizes:start -->
 | Asset | Size |
 | - | - |
-| 0.c37ec82c0a941b1b2061.js | `719.7 kB` |
-| entry-a.1e9928fb96b66c391b88.js | `8.6 kB` |
-| entry-b.26b91c38da0922687d4c.js | `8.6 kB` |
+| 572.8fdb284cb3d79533f804.js | `659.5 kB` |
+| entry-a.2327a47535610ab5ad5e.js | `11.4 kB` |
+| entry-b.374e947f10cdd7f9271b.js | `11.4 kB` |
+| index.html | `307 B` |
 <!-- asset-sizes:end -->

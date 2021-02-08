@@ -1,4 +1,4 @@
-(self["webpackChunk_webpack_playground_split_chunks_all_dynamic_import"] = self["webpackChunk_webpack_playground_split_chunks_all_dynamic_import"] || []).push([[273],{
+(self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] = self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] || []).push([[273],{
 
 /***/ 101:
 /***/ (function(module, exports, __webpack_require__) {

@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	context: __dirname,
@@ -32,4 +33,8 @@ module.exports = {
 		libraryTarget: 'umd',
 		chunkFilename: '[name]-[contenthash].js',
 	},
+
+	plugins: [
+		new HtmlWebpackPlugin(),
+	],
 };

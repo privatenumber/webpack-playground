@@ -6,7 +6,8 @@ Demo of the hash behavior using Webpack 4.
 <!-- asset-sizes:start -->
 | Asset | Size |
 | - | - |
-| 0.b5a0aa55f5ffe0c396b5.js | `719.7 kB` |
-| entry-a.b5a0aa55f5ffe0c396b5.js | `8.6 kB` |
-| entry-b.b5a0aa55f5ffe0c396b5.js | `8.5 kB` |
+| 0.59e49995f58bc39bdc21.js | `719.7 kB` |
+| entry-a.59e49995f58bc39bdc21.js | `8.6 kB` |
+| entry-b.59e49995f58bc39bdc21.js | `8.5 kB` |
+| index.html | `279 B` |
 <!-- asset-sizes:end -->

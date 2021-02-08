@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	context: __dirname,
@@ -21,4 +22,8 @@ module.exports = {
 		// libraryTarget: 'module',,
 		// library: libraryTarget.startsWith('amd') ? undefined : 'test',
 	},
+
+	plugins: [
+		new HtmlWebpackPlugin(),
+	],
 };

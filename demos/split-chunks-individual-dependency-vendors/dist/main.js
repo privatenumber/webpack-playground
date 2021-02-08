@@ -121,7 +121,7 @@ return __webpack_exports__;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + {"273":"commons-lodash","911":"commons-vue.runtime.esm"}[chunkId] + "-" + {"273":"6ef343f3fb1f52f7ea73","911":"c41451a9ad142ff1d746"}[chunkId] + ".js";
+/******/ 			return "" + {"273":"commons-lodash","911":"commons-vue.runtime.esm"}[chunkId] + "-" + {"273":"1df1e8353a165c645d03","911":"4ddf72010185559e9fd5"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -145,7 +145,7 @@ return __webpack_exports__;
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "@webpack-playground/split-chunks-all-dynamic-import:";
+/******/ 		var dataWebpackPrefix = "@webpack-playground/split-chunks-individual-dependency-vendors:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -317,7 +317,7 @@ return __webpack_exports__;
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_webpack_playground_split_chunks_all_dynamic_import"] = self["webpackChunk_webpack_playground_split_chunks_all_dynamic_import"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] = self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 		

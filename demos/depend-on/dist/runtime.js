@@ -129,7 +129,7 @@
 /******/ 			return checkDeferredModules();
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] = self["webpackChunk_webpack_playground_split_chunks_individual_dependency_vendors"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_webpack_playground_depend_on"] = self["webpackChunk_webpack_playground_depend_on"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 		

@@ -36,14 +36,14 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		2: 0
+/******/ 		1: 0
 /******/ 	};
 /******/
 /******/
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + chunkId + "." + "b5a0aa55f5ffe0c396b5" + ".js"
+/******/ 		return __webpack_require__.p + "" + chunkId + "." + "59e49995f58bc39bdc21" + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -196,15 +196,15 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 2:
+/******/ ([
+/* 0 */,
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-console.log('entry b');
+console.log('entry a');
 
 __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 0)).then(({ camelCase, filter }) => {
 	console.log(camelCase('chunkFile'));
@@ -214,5 +214,4 @@ __webpack_require__.e(/* import() */ 0).then(__webpack_require__.bind(null, 0)).
 
 
 /***/ })
-
-/******/ });
+/******/ ]);

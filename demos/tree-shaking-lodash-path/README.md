@@ -9,6 +9,7 @@ The source simply imports the `camelCase` module from `lodash/camelCase`.
 | Asset | Size |
 | - | - |
 | main.js | `121.5 kB` |
+| index.html | `214 B` |
 <!-- asset-sizes:end -->
 
 ## Related

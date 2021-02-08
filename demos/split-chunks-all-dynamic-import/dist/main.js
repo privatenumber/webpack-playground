@@ -145,7 +145,7 @@ return __webpack_exports__;
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "@webpack-playground/split-chunks-all:";
+/******/ 		var dataWebpackPrefix = "@webpack-playground/split-chunks-all-dynamic-import:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -317,7 +317,7 @@ return __webpack_exports__;
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_webpack_playground_split_chunks_all"] = self["webpackChunk_webpack_playground_split_chunks_all"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_webpack_playground_split_chunks_all_dynamic_import"] = self["webpackChunk_webpack_playground_split_chunks_all_dynamic_import"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 		

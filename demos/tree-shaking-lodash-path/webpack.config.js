@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DependencySize = require('webpack-dependency-size');
 const RecordAssetSizes = require('../../utils/record-asset-sizes');
 
@@ -18,6 +19,7 @@ module.exports = {
 	},
 
 	plugins: [
+		new HtmlWebpackPlugin(),
 		new DependencySize(),
 		new RecordAssetSizes(),
 	],
