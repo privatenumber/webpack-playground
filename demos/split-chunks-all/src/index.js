@@ -1,4 +1,4 @@
-import { camelCase } from 'lodash';
-import Vue from 'vue';
+import { last } from 'lodash-es';
 
-console.log(camelCase('test'));
+console.log(last([1]));
+
