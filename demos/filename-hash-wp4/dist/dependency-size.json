@@ -1,0 +1,219 @@
+{
+  "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es": {
+    "size": "626.0 kB",
+    "files": [
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+        "size": "604.8 kB",
+        "reasons": [
+          "./src/entry-a.js",
+          "./src/entry-b.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/array.js",
+        "size": "3.6 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lang.js",
+        "size": "3.1 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/object.js",
+        "size": "2.5 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/util.js",
+        "size": "1.7 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/string.js",
+        "size": "1.7 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/collection.js",
+        "size": "1.5 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/function.js",
+        "size": "1.2 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/isBuffer.js",
+        "size": "1.1 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lang.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/_cloneBuffer.js",
+        "size": "1.1 kB",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/_nodeUtil.js",
+        "size": "993 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/seq.js",
+        "size": "754 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/math.js",
+        "size": "746 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/_root.js",
+        "size": "298 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/_cloneBuffer.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/isBuffer.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/stubFalse.js",
+        "size": "278 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/isBuffer.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/util.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/number.js",
+        "size": "194 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/_freeGlobal.js",
+        "size": "171 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/_nodeUtil.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/_root.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/date.js",
+        "size": "88 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/eachRight.js",
+        "size": "44 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/collection.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/extendWith.js",
+        "size": "44 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/object.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/toJSON.js",
+        "size": "44 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/seq.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/valueOf.js",
+        "size": "44 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/seq.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/value.js",
+        "size": "44 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/entriesIn.js",
+        "size": "41 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/object.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/extend.js",
+        "size": "40 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/object.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/each.js",
+        "size": "39 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/collection.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/entries.js",
+        "size": "39 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/object.js"
+        ]
+      },
+      {
+        "filepath": "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/first.js",
+        "size": "36 B",
+        "reasons": [
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/array.js",
+          "/Users/osame/Documents/public-github/privatenumber/webpack-playground/node_modules/.pnpm/lodash-es@4.17.20/node_modules/lodash-es/lodash.js"
+        ]
+      }
+    ]
+  }
+}

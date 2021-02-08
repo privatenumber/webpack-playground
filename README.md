@@ -17,6 +17,30 @@ This repo contains a variety of examples that demonstrate different Webpack conf
 
 	Blazing fast JS transpilation & minification with esbuild
 
+- [filename-chunkhash-wp4](/demos/filename-chunkhash-wp4)
+
+	Filename chunkhash using Webpack 4
+
+- [filename-chunkhash-wp5](/demos/filename-chunkhash-wp5)
+
+	Filename chunkhash using Webpack 5
+
+- [filename-contenthash-wp4](/demos/filename-contenthash-wp4)
+
+	Filename contenthash using Webpack 4
+
+- [filename-contenthash-wp5](/demos/filename-contenthash-wp5)
+
+	Filename contenthash using Webpack 5
+
+- [filename-hash-wp4](/demos/filename-hash-wp4)
+
+	Filename hash using Webpack 4
+
+- [filename-hash-wp5](/demos/filename-hash-wp5)
+
+	Filename hash using Webpack 5
+
 - [library-targets](/demos/library-targets)
 
 	See the different output formats Webpack supports
@@ -57,7 +81,7 @@ This repo contains a variety of examples that demonstrate different Webpack conf
 
 	Tree-shaking performance with lodash-es
 
-- [tree-shaking-lodash-es-wp-4](/demos/tree-shaking-lodash-es-wp-4)
+- [tree-shaking-lodash-es-wp4](/demos/tree-shaking-lodash-es-wp4)
 
 	Tree-shaking performance with lodash-es using Webpack 4
 

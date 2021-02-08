@@ -1,0 +1,11 @@
+{
+	"name": "@webpack-playground/filename-contenthash-wp5",
+	"description": "Filename contenthash using Webpack 5",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	},
+	"dependencies": {
+		"lodash-es": "^4.17.20",
+		"webpack-cli": "^4.3.1"
+	}
+}

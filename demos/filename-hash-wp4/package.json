@@ -1,0 +1,14 @@
+{
+	"name": "@webpack-playground/filename-hash-wp4",
+	"description": "Filename hash using Webpack 4",
+	"scripts": {
+		"build": "rm -rf dist && webpack --config webpack.config.js"
+	},
+	"dependencies": {
+		"lodash-es": "^4.17.20",
+		"webpack-cli": "^4.3.1"
+	},
+	"devDependencies": {
+		"webpack": "^4.46.0"
+	}
+}

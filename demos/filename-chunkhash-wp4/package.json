@@ -1,6 +1,6 @@
 {
-	"name": "@webpack-playground/tree-shaking-lodash-es-wp-4",
-	"description": "Tree-shaking performance with lodash-es using Webpack 4",
+	"name": "@webpack-playground/filename-chunkhash-wp4",
+	"description": "Filename chunkhash using Webpack 4",
 	"scripts": {
 		"build": "rm -rf dist && webpack --config webpack.config.js"
 	},
@@ -9,6 +9,6 @@
 		"webpack-cli": "^4.3.1"
 	},
 	"devDependencies": {
-		"webpack": "^4.36.1"
+		"webpack": "^4.46.0"
 	}
 }
